@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Barcodes-Generate", "Barcodes-Generate.csproj", "{CE7DC51E-0E7C-49D7-9C8D-EDD2A478D4F3}"
+	ProjectSection(ProjectDependencies) = postProject
+		{8C28EE1E-6B16-4622-BE63-342D5BF2082C} = {8C28EE1E-6B16-4622-BE63-342D5BF2082C}
+		{AF68E9B0-5A2A-4260-9E6E-35B40E24CBF5} = {AF68E9B0-5A2A-4260-9E6E-35B40E24CBF5}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Barcoad-Entities", "..\Barcoad-Entities\Barcoad-Entities.csproj", "{8C28EE1E-6B16-4622-BE63-342D5BF2082C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Barcoad-Repositories", "..\Barcoad-Repositories\Barcoad-Repositories.csproj", "{AF68E9B0-5A2A-4260-9E6E-35B40E24CBF5}"
+	ProjectSection(ProjectDependencies) = postProject
+		{8C28EE1E-6B16-4622-BE63-342D5BF2082C} = {8C28EE1E-6B16-4622-BE63-342D5BF2082C}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CE7DC51E-0E7C-49D7-9C8D-EDD2A478D4F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE7DC51E-0E7C-49D7-9C8D-EDD2A478D4F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE7DC51E-0E7C-49D7-9C8D-EDD2A478D4F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE7DC51E-0E7C-49D7-9C8D-EDD2A478D4F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C28EE1E-6B16-4622-BE63-342D5BF2082C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C28EE1E-6B16-4622-BE63-342D5BF2082C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C28EE1E-6B16-4622-BE63-342D5BF2082C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C28EE1E-6B16-4622-BE63-342D5BF2082C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF68E9B0-5A2A-4260-9E6E-35B40E24CBF5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF68E9B0-5A2A-4260-9E6E-35B40E24CBF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF68E9B0-5A2A-4260-9E6E-35B40E24CBF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF68E9B0-5A2A-4260-9E6E-35B40E24CBF5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2C9F4BA0-2FBF-409E-9282-BA8260D2FD62}
+	EndGlobalSection
+EndGlobal

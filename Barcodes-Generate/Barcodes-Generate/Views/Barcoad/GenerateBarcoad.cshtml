@@ -1,0 +1,38 @@
+﻿@using Barcoad_Entities.BarcoadsModels
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+@model BarcoadsViewModel
+<section>
+    <div class="MainBarcoadDiv">
+        @using (Html.BeginForm("", "", FormMethod.Post, new { @class = "mt-5", id = "", onsubmit = "BarcoadSubmit(); return false;" }))
+        {
+            <!-- Basic Information -->
+            <label class="content_title"> Generate Barcoads</label>
+            <hr class="mb-4" />
+            <div class="row mb-4">
+                <div class="form-group col-6">
+                    @Html.LabelFor(model => model.numBarcodes, new { @class = "mb-1", id = ""})
+                    @Html.TextBoxFor(model => model.numBarcodes, new { @class = "form-control", id = "", placeholder = "Enter Barcoad Number" })
+                </div>
+                <div class="form-group col-6">
+                    @Html.LabelFor(model => model.barcodeLength, new { @class = "mb-1", id = "" })
+                    @Html.TextBoxFor(model => model.barcodeLength, new { @class = "form-control", id = "", placeholder = "Enter Barcoad Length" })
+                </div>
+            </div>
+
+            <!-- Save -->
+            <div class="">
+                <button type="submit" class="card_apply_button">
+                    Submit
+                </button>
+            </div>
+        }
+    </div>
+    <div id="BarcoadData">
+
+    </div>
+
+</section>

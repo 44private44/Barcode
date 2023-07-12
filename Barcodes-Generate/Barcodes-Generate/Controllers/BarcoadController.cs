@@ -1,8 +1,9 @@
 ﻿using Barcoad_Entities.BarcoadsModels;
 using Barcoad_Entities.DataModels;
 using Barcoad_Repositories.Interfaces;
+using IronBarCode;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Mvc.Rendering;
+using System.Collections.Generic;
 
 namespace Barcodes_Generate.Controllers
 {
@@ -10,10 +11,12 @@ namespace Barcodes_Generate.Controllers
     {
         private ImagesdbContext _context;
         private readonly IGenerateBarcoadRepository _generateBarcoadRepository;
-        public BarcoadController(ImagesdbContext context, IGenerateBarcoadRepository generateBarcoadRepository)
+        private IWebHostEnvironment _webHostEnvironment;
+        public BarcoadController(ImagesdbContext context, IGenerateBarcoadRepository generateBarcoadRepository, IWebHostEnvironment webHostEnvironment)
         {
             _context = context;
             _generateBarcoadRepository = generateBarcoadRepository;
+            _webHostEnvironment = webHostEnvironment;
         }
 
         public IActionResult GenerateBarcoad()
@@ -31,7 +34,49 @@ namespace Barcodes_Generate.Controllers
                 var model = new BarcoadsViewModel();
                 model.BarcoadData = results.ToList();
                 model.barcodeLength = data.barcodeLength;
-                model.numBarcodes = data.numBarcodes;   
+                model.numBarcodes = data.numBarcodes;
+
+                // Generate Barcode
+                string path = Path.Combine(_webHostEnvironment.WebRootPath, "BarCodeFile");
+                if (Directory.Exists(path))
+                {
+                    // Delete all existing files in the folder
+                    DirectoryInfo directoryInfo = new DirectoryInfo(path);
+                    foreach (FileInfo file in directoryInfo.GetFiles())
+                    {
+                        file.Delete();
+                    }
+                }
+                else
+                {
+                    Directory.CreateDirectory(path);
+                }
+                // Barcode 
+                foreach (string barcodeText in results)
+                {
+                    GeneratedBarcode barcode = IronBarCode.BarcodeWriter.CreateBarcode(barcodeText, BarcodeWriterEncoding.Code128);
+                    barcode.ResizeTo(500, 150);
+                    barcode.AddBarcodeValueTextBelowBarcode();
+                    barcode.ChangeBarCodeColor(Color.Blue);
+                    barcode.SetMargins(10);
+
+                    string fileName = $"{barcodeText}.png";
+                    string filePath = Path.Combine(_webHostEnvironment.WebRootPath, "BarCodeFile/" + fileName);
+                    barcode.SaveAsPng(filePath);
+                }
+                // Qr code 
+                //foreach (string barcodeText in results)
+                //{
+                //    GeneratedBarcode barcode = IronBarCode.BarcodeWriter.CreateBarcode(barcodeText, BarcodeWriterEncoding.QRCode);
+                //    barcode.ResizeTo(500, 300); 
+                //    barcode.AddBarcodeValueTextBelowBarcode();
+                //    barcode.SetMargins(10);
+
+                //    string fileName = $"{barcodeText}.png";
+                //    string filePath = Path.Combine(_webHostEnvironment.WebRootPath, "BarCodeFile", fileName);
+                //    barcode.SaveAsPng(filePath);
+                //}
+
                 return PartialView("_BarcoadGeneratedData", model);
             }
             catch (Exception ex)

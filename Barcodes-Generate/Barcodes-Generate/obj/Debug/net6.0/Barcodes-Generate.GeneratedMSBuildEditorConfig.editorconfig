@@ -8,37 +8,37 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Barcodes_Generate
 build_property.RootNamespace = Barcodes_Generate
-build_property.ProjectDir = D:\important\Barcodes-Generate\
+build_property.ProjectDir = D:\important\122\Projects\Barcode\Barcodes-Generate\Barcodes-Generate\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\important\Barcodes-Generate
+build_property.MSBuildProjectDirectory = D:\important\122\Projects\Barcode\Barcodes-Generate\Barcodes-Generate
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/important/Barcodes-Generate/Views/Barcoad/GenerateBarcoad.cshtml]
+[D:/important/122/Projects/Barcode/Barcodes-Generate/Barcodes-Generate/Views/Barcoad/GenerateBarcoad.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmFyY29hZFxHZW5lcmF0ZUJhcmNvYWQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/important/Barcodes-Generate/Views/Barcoad/_BarcoadGeneratedData.cshtml]
+[D:/important/122/Projects/Barcode/Barcodes-Generate/Barcodes-Generate/Views/Barcoad/_BarcoadGeneratedData.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmFyY29hZFxfQmFyY29hZEdlbmVyYXRlZERhdGEuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/important/Barcodes-Generate/Views/Shared/Error.cshtml]
+[D:/important/122/Projects/Barcode/Barcodes-Generate/Barcodes-Generate/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/important/Barcodes-Generate/Views/Shared/_ValidationScriptsPartial.cshtml]
+[D:/important/122/Projects/Barcode/Barcodes-Generate/Barcodes-Generate/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/important/Barcodes-Generate/Views/_ViewImports.cshtml]
+[D:/important/122/Projects/Barcode/Barcodes-Generate/Barcodes-Generate/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/important/Barcodes-Generate/Views/_ViewStart.cshtml]
+[D:/important/122/Projects/Barcode/Barcodes-Generate/Barcodes-Generate/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/important/Barcodes-Generate/Views/Shared/_Layout.cshtml]
+[D:/important/122/Projects/Barcode/Barcodes-Generate/Barcodes-Generate/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-5hvn5l2pjo

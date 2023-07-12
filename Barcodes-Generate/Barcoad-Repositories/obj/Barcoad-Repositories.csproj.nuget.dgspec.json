@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\important\\Barcoad-Repositories\\Barcoad-Repositories.csproj": {}
+    "D:\\important\\122\\Projects\\Barcode\\Barcodes-Generate\\Barcoad-Repositories\\Barcoad-Repositories.csproj": {}
   },
   "projects": {
-    "D:\\important\\Barcoad-Entities\\Barcoad-Entities.csproj": {
+    "D:\\important\\122\\Projects\\Barcode\\Barcodes-Generate\\Barcoad-Entities\\Barcoad-Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\important\\Barcoad-Entities\\Barcoad-Entities.csproj",
+        "projectUniqueName": "D:\\important\\122\\Projects\\Barcode\\Barcodes-Generate\\Barcoad-Entities\\Barcoad-Entities.csproj",
         "projectName": "Barcoad-Entities",
-        "projectPath": "D:\\important\\Barcoad-Entities\\Barcoad-Entities.csproj",
+        "projectPath": "D:\\important\\122\\Projects\\Barcode\\Barcodes-Generate\\Barcoad-Entities\\Barcoad-Entities.csproj",
         "packagesPath": "C:\\Users\\pca172\\.nuget\\packages\\",
-        "outputPath": "D:\\important\\Barcoad-Entities\\obj\\",
+        "outputPath": "D:\\important\\122\\Projects\\Barcode\\Barcodes-Generate\\Barcoad-Entities\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -45,6 +45,10 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "BarCode": {
+              "target": "Package",
+              "version": "[2023.7.2, )"
+            },
             "Dapper": {
               "target": "Package",
               "version": "[2.0.143, )"
@@ -58,6 +62,22 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[7.0.8, )"
+            },
+            "System.Collections": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "System.Drawing.Common": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "System.IO": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "ZXing.Net": {
+              "target": "Package",
+              "version": "[0.16.9, )"
             }
           },
           "imports": [
@@ -79,14 +99,14 @@
         }
       }
     },
-    "D:\\important\\Barcoad-Repositories\\Barcoad-Repositories.csproj": {
+    "D:\\important\\122\\Projects\\Barcode\\Barcodes-Generate\\Barcoad-Repositories\\Barcoad-Repositories.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\important\\Barcoad-Repositories\\Barcoad-Repositories.csproj",
+        "projectUniqueName": "D:\\important\\122\\Projects\\Barcode\\Barcodes-Generate\\Barcoad-Repositories\\Barcoad-Repositories.csproj",
         "projectName": "Barcoad-Repositories",
-        "projectPath": "D:\\important\\Barcoad-Repositories\\Barcoad-Repositories.csproj",
+        "projectPath": "D:\\important\\122\\Projects\\Barcode\\Barcodes-Generate\\Barcoad-Repositories\\Barcoad-Repositories.csproj",
         "packagesPath": "C:\\Users\\pca172\\.nuget\\packages\\",
-        "outputPath": "D:\\important\\Barcoad-Repositories\\obj\\",
+        "outputPath": "D:\\important\\122\\Projects\\Barcode\\Barcodes-Generate\\Barcoad-Repositories\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -108,8 +128,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\important\\Barcoad-Entities\\Barcoad-Entities.csproj": {
-                "projectPath": "D:\\important\\Barcoad-Entities\\Barcoad-Entities.csproj"
+              "D:\\important\\122\\Projects\\Barcode\\Barcodes-Generate\\Barcoad-Entities\\Barcoad-Entities.csproj": {
+                "projectPath": "D:\\important\\122\\Projects\\Barcode\\Barcodes-Generate\\Barcoad-Entities\\Barcoad-Entities.csproj"
               }
             }
           }
@@ -124,6 +144,10 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "BarCode": {
+              "target": "Package",
+              "version": "[2023.7.2, )"
+            },
             "Dapper": {
               "target": "Package",
               "version": "[2.0.143, )"
@@ -137,6 +161,22 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[7.0.8, )"
+            },
+            "System.Collections": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "System.Drawing.Common": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "System.IO": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "ZXing.Net": {
+              "target": "Package",
+              "version": "[0.16.9, )"
             }
           },
           "imports": [

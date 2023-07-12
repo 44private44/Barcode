@@ -1,0 +1,31 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "ce7dc51e-0e7c-49d7-9c8d-edd2a478d4f3": {
+      "ProjectGuid": "ce7dc51e-0e7c-49d7-9c8d-edd2a478d4f3",
+      "DisplayName": "Barcodes-Generate",
+      "ColorIndex": 0
+    },
+    "af68e9b0-5a2a-4260-9e6e-35b40e24cbf5": {
+      "ProjectGuid": "af68e9b0-5a2a-4260-9e6e-35b40e24cbf5",
+      "DisplayName": "Barcoad-Repositories",
+      "ColorIndex": 1
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    },
+    "919fd655-f067-4ba2-b932-d926e85dd6b4": {
+      "ProjectGuid": "919fd655-f067-4ba2-b932-d926e85dd6b4",
+      "DisplayName": "Script Documents",
+      "ColorIndex": 2
+    },
+    "8c28ee1e-6b16-4622-be63-342d5bf2082c": {
+      "ProjectGuid": "8c28ee1e-6b16-4622-be63-342d5bf2082c",
+      "DisplayName": "Barcoad-Entities",
+      "ColorIndex": 3
+    }
+  },
+  "NextColorIndex": 4
+}

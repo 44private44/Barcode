@@ -1,21 +1,27 @@
 ﻿// Barcoad Submit
 
-
 function BarcoadSubmit() {
     // Serialize the form data
     var formData = $('.MainBarcoadDiv form').serialize();
 
+    $('#loader').show();
+    // Show loader
+
     $.ajax({
         url: '/Barcoad/BarcoadGeneratedData',
-        type: 'POST', 
+        type: 'POST',
         data: formData,
         success: function (response) {
-            $('#BarcoadData').html(response); 
+            // Hide loader
+            $('#loader').hide();
 
-            console.log("Success");
+            $('#BarcoadData').html(response);
         },
         error: function (xhr, textStatus, errorThrown) {
+            // Hide loader
+            $('#loader').hide();
             alert("Something went wrong");
         }
     });
 }
+

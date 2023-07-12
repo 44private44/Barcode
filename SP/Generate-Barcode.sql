@@ -81,4 +81,5 @@ BEGIN
     DROP TABLE #tempBarcodes;
 END;
 
-EXEC GenerateRandomCharacters @numBarcodes = 1000, @barcodeLength = 12;
+EXEC GenerateRandomCharacters @numBarcodes = 50, @barcodeLength = 1;
+

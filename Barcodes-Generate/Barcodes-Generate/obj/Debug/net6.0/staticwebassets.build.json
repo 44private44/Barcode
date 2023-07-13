@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "UcRth21G8AvIwbXqQgUkp/Jmqa6/WSnRf46+Xzkmyik=",
+  "Hash": "b2v4R8S3wZQ3sKLiYtQRz9gVOseId34YAVWmKzyyuPE=",
   "Source": "Barcodes-Generate",
   "BasePath": "_content/Barcodes-Generate",
   "Mode": "Default",
@@ -51,12 +51,12 @@
       "OriginalItemSpec": "D:\\important\\122\\Projects\\Barcode\\Barcodes-Generate\\Barcodes-Generate\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\Barcodes-Generate.bundle.scp.css"
     },
     {
-      "Identity": "D:\\important\\122\\Projects\\Barcode\\Barcodes-Generate\\Barcodes-Generate\\wwwroot\\BarCodeFile\\1LT34UVDRV.png",
+      "Identity": "D:\\important\\122\\Projects\\Barcode\\Barcodes-Generate\\Barcodes-Generate\\wwwroot\\BarCodeFile\\2TTB1IPCN1ZN.png",
       "SourceId": "Barcodes-Generate",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\important\\122\\Projects\\Barcode\\Barcodes-Generate\\Barcodes-Generate\\wwwroot\\",
       "BasePath": "_content/Barcodes-Generate",
-      "RelativePath": "BarCodeFile/1LT34UVDRV.png",
+      "RelativePath": "BarCodeFile/2TTB1IPCN1ZN.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -65,15 +65,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\BarCodeFile\\1LT34UVDRV.png"
+      "OriginalItemSpec": "wwwroot\\BarCodeFile\\2TTB1IPCN1ZN.png"
     },
     {
-      "Identity": "D:\\important\\122\\Projects\\Barcode\\Barcodes-Generate\\Barcodes-Generate\\wwwroot\\BarCodeFile\\441GX4V0M8.png",
+      "Identity": "D:\\important\\122\\Projects\\Barcode\\Barcodes-Generate\\Barcodes-Generate\\wwwroot\\BarCodeFile\\48QWI367UYV3.png",
       "SourceId": "Barcodes-Generate",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\important\\122\\Projects\\Barcode\\Barcodes-Generate\\Barcodes-Generate\\wwwroot\\",
       "BasePath": "_content/Barcodes-Generate",
-      "RelativePath": "BarCodeFile/441GX4V0M8.png",
+      "RelativePath": "BarCodeFile/48QWI367UYV3.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -82,15 +82,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\BarCodeFile\\441GX4V0M8.png"
+      "OriginalItemSpec": "wwwroot\\BarCodeFile\\48QWI367UYV3.png"
     },
     {
-      "Identity": "D:\\important\\122\\Projects\\Barcode\\Barcodes-Generate\\Barcodes-Generate\\wwwroot\\BarCodeFile\\4RQM6BIWTO.png",
+      "Identity": "D:\\important\\122\\Projects\\Barcode\\Barcodes-Generate\\Barcodes-Generate\\wwwroot\\BarCodeFile\\4Y02VOATPYL3.png",
       "SourceId": "Barcodes-Generate",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\important\\122\\Projects\\Barcode\\Barcodes-Generate\\Barcodes-Generate\\wwwroot\\",
       "BasePath": "_content/Barcodes-Generate",
-      "RelativePath": "BarCodeFile/4RQM6BIWTO.png",
+      "RelativePath": "BarCodeFile/4Y02VOATPYL3.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -99,15 +99,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\BarCodeFile\\4RQM6BIWTO.png"
+      "OriginalItemSpec": "wwwroot\\BarCodeFile\\4Y02VOATPYL3.png"
     },
     {
-      "Identity": "D:\\important\\122\\Projects\\Barcode\\Barcodes-Generate\\Barcodes-Generate\\wwwroot\\BarCodeFile\\5RFDVYIJG4.png",
+      "Identity": "D:\\important\\122\\Projects\\Barcode\\Barcodes-Generate\\Barcodes-Generate\\wwwroot\\BarCodeFile\\9WP4YSIG7S8E.png",
       "SourceId": "Barcodes-Generate",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\important\\122\\Projects\\Barcode\\Barcodes-Generate\\Barcodes-Generate\\wwwroot\\",
       "BasePath": "_content/Barcodes-Generate",
-      "RelativePath": "BarCodeFile/5RFDVYIJG4.png",
+      "RelativePath": "BarCodeFile/9WP4YSIG7S8E.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -116,15 +116,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\BarCodeFile\\5RFDVYIJG4.png"
+      "OriginalItemSpec": "wwwroot\\BarCodeFile\\9WP4YSIG7S8E.png"
     },
     {
-      "Identity": "D:\\important\\122\\Projects\\Barcode\\Barcodes-Generate\\Barcodes-Generate\\wwwroot\\BarCodeFile\\5XXNEZQLDC.png",
+      "Identity": "D:\\important\\122\\Projects\\Barcode\\Barcodes-Generate\\Barcodes-Generate\\wwwroot\\BarCodeFile\\AF84LATM8UYI.png",
       "SourceId": "Barcodes-Generate",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\important\\122\\Projects\\Barcode\\Barcodes-Generate\\Barcodes-Generate\\wwwroot\\",
       "BasePath": "_content/Barcodes-Generate",
-      "RelativePath": "BarCodeFile/5XXNEZQLDC.png",
+      "RelativePath": "BarCodeFile/AF84LATM8UYI.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -133,15 +133,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\BarCodeFile\\5XXNEZQLDC.png"
+      "OriginalItemSpec": "wwwroot\\BarCodeFile\\AF84LATM8UYI.png"
     },
     {
-      "Identity": "D:\\important\\122\\Projects\\Barcode\\Barcodes-Generate\\Barcodes-Generate\\wwwroot\\BarCodeFile\\E2DZJ9A90R.png",
+      "Identity": "D:\\important\\122\\Projects\\Barcode\\Barcodes-Generate\\Barcodes-Generate\\wwwroot\\BarCodeFile\\R63QUPMANRMC.png",
       "SourceId": "Barcodes-Generate",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\important\\122\\Projects\\Barcode\\Barcodes-Generate\\Barcodes-Generate\\wwwroot\\",
       "BasePath": "_content/Barcodes-Generate",
-      "RelativePath": "BarCodeFile/E2DZJ9A90R.png",
+      "RelativePath": "BarCodeFile/R63QUPMANRMC.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -150,15 +150,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\BarCodeFile\\E2DZJ9A90R.png"
+      "OriginalItemSpec": "wwwroot\\BarCodeFile\\R63QUPMANRMC.png"
     },
     {
-      "Identity": "D:\\important\\122\\Projects\\Barcode\\Barcodes-Generate\\Barcodes-Generate\\wwwroot\\BarCodeFile\\K61UOS8QBO.png",
+      "Identity": "D:\\important\\122\\Projects\\Barcode\\Barcodes-Generate\\Barcodes-Generate\\wwwroot\\BarCodeFile\\UJPFHVPUTZH6.png",
       "SourceId": "Barcodes-Generate",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\important\\122\\Projects\\Barcode\\Barcodes-Generate\\Barcodes-Generate\\wwwroot\\",
       "BasePath": "_content/Barcodes-Generate",
-      "RelativePath": "BarCodeFile/K61UOS8QBO.png",
+      "RelativePath": "BarCodeFile/UJPFHVPUTZH6.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -167,15 +167,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\BarCodeFile\\K61UOS8QBO.png"
+      "OriginalItemSpec": "wwwroot\\BarCodeFile\\UJPFHVPUTZH6.png"
     },
     {
-      "Identity": "D:\\important\\122\\Projects\\Barcode\\Barcodes-Generate\\Barcodes-Generate\\wwwroot\\BarCodeFile\\N3IY5SMS6U.png",
+      "Identity": "D:\\important\\122\\Projects\\Barcode\\Barcodes-Generate\\Barcodes-Generate\\wwwroot\\BarCodeFile\\Y17UJGKSWGSP.png",
       "SourceId": "Barcodes-Generate",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\important\\122\\Projects\\Barcode\\Barcodes-Generate\\Barcodes-Generate\\wwwroot\\",
       "BasePath": "_content/Barcodes-Generate",
-      "RelativePath": "BarCodeFile/N3IY5SMS6U.png",
+      "RelativePath": "BarCodeFile/Y17UJGKSWGSP.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -184,15 +184,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\BarCodeFile\\N3IY5SMS6U.png"
+      "OriginalItemSpec": "wwwroot\\BarCodeFile\\Y17UJGKSWGSP.png"
     },
     {
-      "Identity": "D:\\important\\122\\Projects\\Barcode\\Barcodes-Generate\\Barcodes-Generate\\wwwroot\\BarCodeFile\\QN8S85QC83.png",
+      "Identity": "D:\\important\\122\\Projects\\Barcode\\Barcodes-Generate\\Barcodes-Generate\\wwwroot\\BarCodeFile\\Z5R0COYGNA2P.png",
       "SourceId": "Barcodes-Generate",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\important\\122\\Projects\\Barcode\\Barcodes-Generate\\Barcodes-Generate\\wwwroot\\",
       "BasePath": "_content/Barcodes-Generate",
-      "RelativePath": "BarCodeFile/QN8S85QC83.png",
+      "RelativePath": "BarCodeFile/Z5R0COYGNA2P.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -201,15 +201,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\BarCodeFile\\QN8S85QC83.png"
+      "OriginalItemSpec": "wwwroot\\BarCodeFile\\Z5R0COYGNA2P.png"
     },
     {
-      "Identity": "D:\\important\\122\\Projects\\Barcode\\Barcodes-Generate\\Barcodes-Generate\\wwwroot\\BarCodeFile\\ZBGLNM3V01.png",
+      "Identity": "D:\\important\\122\\Projects\\Barcode\\Barcodes-Generate\\Barcodes-Generate\\wwwroot\\BarCodeFile\\ZZ7NV2PS5FV4.png",
       "SourceId": "Barcodes-Generate",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\important\\122\\Projects\\Barcode\\Barcodes-Generate\\Barcodes-Generate\\wwwroot\\",
       "BasePath": "_content/Barcodes-Generate",
-      "RelativePath": "BarCodeFile/ZBGLNM3V01.png",
+      "RelativePath": "BarCodeFile/ZZ7NV2PS5FV4.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -218,7 +218,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\BarCodeFile\\ZBGLNM3V01.png"
+      "OriginalItemSpec": "wwwroot\\BarCodeFile\\ZZ7NV2PS5FV4.png"
     },
     {
       "Identity": "D:\\important\\122\\Projects\\Barcode\\Barcodes-Generate\\Barcodes-Generate\\wwwroot\\css\\BarcoadStyle.css",

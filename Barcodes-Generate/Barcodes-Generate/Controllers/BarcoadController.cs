@@ -68,7 +68,7 @@ namespace Barcodes_Generate.Controllers
                 //foreach (string barcodeText in results)
                 //{
                 //    GeneratedBarcode barcode = IronBarCode.BarcodeWriter.CreateBarcode(barcodeText, BarcodeWriterEncoding.QRCode);
-                //    barcode.ResizeTo(500, 300); 
+                //    barcode.ResizeTo(500, 300);
                 //    barcode.AddBarcodeValueTextBelowBarcode();
                 //    barcode.SetMargins(10);
 
@@ -76,6 +76,16 @@ namespace Barcodes_Generate.Controllers
                 //    string filePath = Path.Combine(_webHostEnvironment.WebRootPath, "BarCodeFile", fileName);
                 //    barcode.SaveAsPng(filePath);
                 //}
+
+                // GEnerate the Qr Code By string
+                //string qrCodeText = "Chalo";
+                //GeneratedBarcode qrCode = IronBarCode.BarcodeWriter.CreateBarcode(qrCodeText, BarcodeWriterEncoding.QRCode);
+                //qrCode.ResizeTo(500, 300);
+                //qrCode.SetMargins(10);
+
+                //string qrCodeFileName = $"{qrCodeText}.png";
+                //string qrCodeFilePath = Path.Combine(_webHostEnvironment.WebRootPath, "BarCodeFile", qrCodeFileName);
+                //qrCode.SaveAsPng(qrCodeFilePath);
 
                 return PartialView("_BarcoadGeneratedData", model);
             }

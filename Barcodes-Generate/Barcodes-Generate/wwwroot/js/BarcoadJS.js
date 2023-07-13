@@ -4,8 +4,8 @@ function BarcoadSubmit() {
     // Serialize the form data
     var formData = $('.MainBarcoadDiv form').serialize();
 
-    $('#loader').show();
     // Show loader
+    $('#loader').show();
 
     $.ajax({
         url: '/Barcoad/BarcoadGeneratedData',
@@ -13,7 +13,7 @@ function BarcoadSubmit() {
         data: formData,
         success: function (response) {
             // Hide loader
-            $('#loader').hide();
+            $('#loader').hide();    
 
             $('#BarcoadData').html(response);
         },
